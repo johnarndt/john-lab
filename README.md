@@ -1,6 +1,6 @@
 # John Lab
 
-Ten Claude skills taken from the workflows I use to build, ship and market my own products. Each one is a plain `SKILL.md` you can read before installing. Each has an article on [johnarndt.net/skills](https://johnarndt.net/skills) about where it came from.
+Eleven Claude skills taken from the workflows I use to build, ship and market my own products. Each one is a plain `SKILL.md` you can read before installing. Each has an article on [johnarndt.net/skills](https://johnarndt.net/skills) about where it came from.
 
 ## Install
 
@@ -26,6 +26,7 @@ To use a single skill, copy its folder into `~/.claude/skills/` (personal) or `.
 | [`recover-document-job`](john-lab/skills/recover-document-job/SKILL.md) | Retrieve the existing result before retrying, then separate replay evidence, source checks, and present spending. | [Read](https://johnarndt.net/skills/recover-document-job) |
 | [`writers-room`](john-lab/skills/writers-room/SKILL.md) | A scout, critics, a showrunner, a copywriter and a blind persona panel turn sources into a teleprompter script. | [Read](https://johnarndt.net/skills/writers-room) |
 | [`podcast-room`](john-lab/skills/podcast-room/SKILL.md) | Pitchers, a showrunner with a facts ledger, one segment at a time, and a transcript diff on every recording. | [Read](https://johnarndt.net/skills/podcast-room) |
+| [`video-character-swap`](john-lab/skills/video-character-swap/SKILL.md) | Replace one person in real footage with a character from reference images, keeping every other person, the background, graphics and audio original. Ships with its scripts. | [Read](https://johnarndt.net/skills/video-character-swap) |
 | [`hundred-to-ten`](john-lab/skills/hundred-to-ten/SKILL.md) | Write 100, score them on a rubric, cut 20% a round through a new lens each time, and keep the best 10. | [Read](https://johnarndt.net/skills/hundred-to-ten) |
 
 ## Status
@@ -34,7 +35,8 @@ Version 0.1.0. These are drafts. The workflows behind them have been run on real
 
 ## What these skills do and don't do
 
-- Every skill is instructions only: no hooks, scripts, MCP servers or network calls of their own. They use whatever tools your Claude session already has.
+- Every skill except `video-character-swap` is instructions only: no hooks, scripts, MCP servers or network calls of their own. They use whatever tools your Claude session already has.
+- `video-character-swap` includes Python and shell scripts you run yourself. Its one-time setup downloads SAM2.1 weights from Hugging Face; the video edit runs on Sunra and costs credits, which the skill quotes and waits for your OK on. Read `scripts/` before running them.
 - They don't grant permissions. Skills that touch releases, DNS, app stores or payments stop at a report or draft and leave sign-ins, payments, sends and deploys to you.
 - No credentials belong in any skill, and none are included.
 
