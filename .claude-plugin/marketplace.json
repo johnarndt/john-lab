@@ -1,0 +1,19 @@
+{
+  "name": "john-lab",
+  "owner": {
+    "name": "John Arndt",
+    "email": "hi@johnarndt.net",
+    "url": "https://johnarndt.net"
+  },
+  "metadata": {
+    "description": "John Arndt's Claude skills for building and making: QA, multi-agent builds, safe releases, app store submissions, and content production."
+  },
+  "plugins": [
+    {
+      "name": "john-lab",
+      "source": "./john-lab",
+      "description": "Ten skills from how John Arndt builds and ships: feature audit, lane orchestration, safe cutover, CVE triage, store submissions, release receipts, job recovery, writers' room, podcast room and 100-to-10.",
+      "category": "productivity"
+    }
+  ]
+}
