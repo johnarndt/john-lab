@@ -12,7 +12,7 @@
     {
       "name": "john-lab",
       "source": "./john-lab",
-      "description": "Eleven skills from how John Arndt builds and ships: feature audit, lane orchestration, safe cutover, CVE triage, store submissions, release receipts, job recovery, writers' room, podcast room, video character swap and 100-to-10.",
+      "description": "Twelve skills from how John Arndt builds and ships: feature audit, lane orchestration, safe cutover, the product workspace playbook, CVE triage, store submissions, release receipts, job recovery, writers' room, podcast room, video character swap and 100-to-10.",
       "category": "productivity"
     }
   ]

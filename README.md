@@ -1,6 +1,6 @@
 # John Lab
 
-Eleven Claude skills taken from the workflows I use to build, ship and market my own products. Each one is a plain `SKILL.md` you can read before installing. Each has an article on [johnarndt.net/skills](https://johnarndt.net/skills) about where it came from.
+Twelve Claude skills taken from the workflows I use to build, ship and market my own products. Each one is a plain `SKILL.md` you can read before installing. Each has an article on [johnarndt.net/skills](https://johnarndt.net/skills) about where it came from.
 
 ## Install
 
@@ -28,6 +28,7 @@ To use a single skill, copy its folder into `~/.claude/skills/` (personal) or `.
 | [`podcast-room`](john-lab/skills/podcast-room/SKILL.md) | Pitchers, a showrunner with a facts ledger, one segment at a time, and a transcript diff on every recording. | [Read](https://johnarndt.net/skills/podcast-room) |
 | [`video-character-swap`](john-lab/skills/video-character-swap/SKILL.md) | Replace one person in real footage with a character from reference images, keeping every other person, the background, graphics and audio original. Ships with its scripts. | [Read](https://johnarndt.net/skills/video-character-swap) |
 | [`hundred-to-ten`](john-lab/skills/hundred-to-ten/SKILL.md) | Write 100, score them on a rubric, cut 20% a round through a new lens each time, and keep the best 10. | [Read](https://johnarndt.net/skills/hundred-to-ten) |
+| [`product-workspace-playbook`](john-lab/skills/product-workspace-playbook/SKILL.md) | Apply workspace rules for customer feedback, spending, public writing, and releases. | [Read](https://johnarndt.net/skills/product-workspace-playbook) |
 
 ## Status
 

@@ -1,8 +1,8 @@
 {
   "name": "john-lab",
   "displayName": "John Lab",
-  "version": "0.2.0",
-  "description": "How John Arndt builds and makes with Claude: a four-phase feature audit, multi-agent lane orchestration, safe hosting cutovers, CVE triage, app store submissions, release-readiness receipts, interrupted-job recovery, a writers' room for talking-head video, a podcast room, video character swaps, and 100-to-10 distillation for short copy.",
+  "version": "0.3.0",
+  "description": "How John Arndt builds and makes with Claude: a four-phase feature audit, multi-agent lane orchestration, safe hosting cutovers, a product workspace playbook, CVE triage, app store submissions, release-readiness receipts, interrupted-job recovery, a writers' room for talking-head video, a podcast room, video character swaps, and 100-to-10 distillation for short copy.",
   "author": {
     "name": "John Arndt",
     "email": "hi@johnarndt.net",
